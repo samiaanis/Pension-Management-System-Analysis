@@ -47,7 +47,8 @@ Python (Pandas) was used for data extraction, cleaning, feature engineering, and
   
   <img width="455" height="100" alt="image" src="https://github.com/user-attachments/assets/3ac7275f-ec06-4f89-a0a3-4ae4f1c66d72" />
   
-  <img width="576" height="261" alt="image" src="https://github.com/user-attachments/assets/2ad43bf5-3627-4934-947c-15e59a5b1827" />
+  <img width="536" height="103" alt="image" src="https://github.com/user-attachments/assets/1a75798b-5c7f-482c-af8c-393023f412f2" />
+
   
   <img width="512" height="99" alt="image" src="https://github.com/user-attachments/assets/eea82564-5d26-453c-8787-9a233c43cc91" />
 
@@ -55,13 +56,14 @@ Python (Pandas) was used for data extraction, cleaning, feature engineering, and
 
   <img width="435" height="87" alt="image" src="https://github.com/user-attachments/assets/b80c8124-e134-4b60-a447-029e80ac1c85" />
 
-  <img width="435" height="87" alt="image" src="https://github.com/user-attachments/assets/9c0becb6-d5a7-4fce-845f-f8146279e94c" />
+  <img width="293" height="112" alt="image" src="https://github.com/user-attachments/assets/30863659-b454-4628-b942-68571271cf4b" />
+
 
   <img width="497" height="69" alt="image" src="https://github.com/user-attachments/assets/b584fc06-5ddb-47ea-8e84-0ab1842ce079" />
   
 - Removing or masking sensitive personal information
 
- <img width="408" height="92" alt="image" src="https://github.com/user-attachments/assets/7320a336-4190-43af-ace0-38f561b1ae50" />
+  <img width="408" height="92" alt="image" src="https://github.com/user-attachments/assets/7320a336-4190-43af-ace0-38f561b1ae50" />
 
 - Loading the cleaned dataset into MySQL  
 
