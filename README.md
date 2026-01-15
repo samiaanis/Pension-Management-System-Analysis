@@ -41,7 +41,7 @@ Python (Pandas) was used for data extraction, cleaning, feature engineering, and
 **Key steps:**
 - Extraction: Loading pension records from a raw CSV file (20,000 rows).
 
-  <img width="576" height="48" alt="image" src="https://github.com/user-attachments/assets/4c8c464d-7e6e-48cc-8dc7-d7f99c1c4c27" />
+  <img width="678" height="243" alt="image" src="https://github.com/user-attachments/assets/e03d2c40-3821-4fb3-abf6-95302a485677" />
 
 - Cleaning & Standardization: Formatting dates, correcting numerical errors, and standardizing text fields
   
@@ -67,7 +67,8 @@ Python (Pandas) was used for data extraction, cleaning, feature engineering, and
 
 - Loading the cleaned dataset into MySQL  
 
-  <img width="576" height="263" alt="image" src="https://github.com/user-attachments/assets/ba2185c8-9a5a-4ad8-8282-a478766bc18e" />
+  <img width="743" height="650" alt="image" src="https://github.com/user-attachments/assets/88e983ae-2b4a-40a6-bf41-3ecdda16a260" />
+
 
 ---
 
