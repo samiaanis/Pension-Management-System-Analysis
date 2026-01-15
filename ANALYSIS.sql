@@ -11,7 +11,6 @@ FROM pension_management.pension
 GROUP BY region;
 
 
-
 --Top 10 pensioners by payout.
 
 SELECT
@@ -19,14 +18,17 @@ SELECT
   monthly_pension
 FROM pension_management.pension
 ORDER BY monthly_pension DESC
-LIMIT 10;
+LIMIT 5;
 
---Identifying employees nearing retirement.
+--Identifying employees nearing retirement
 
-SELECT *
+SET @reference_date = '2026-01-16';
+
+SELECT DISTINCT pensioner_id, retirement_date
 FROM pension_management.pension
-WHERE retirement_date < NOW() + INTERVAL 2 YEAR;
-
+WHERE retirement_date BETWEEN @reference_date
+  AND DATE_ADD(@reference_date, INTERVAL 1 YEAR)
+ORDER BY retirement_date;
 
 --Pension type and status distributions.
 
