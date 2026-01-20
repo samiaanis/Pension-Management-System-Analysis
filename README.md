@@ -100,9 +100,80 @@ SQL queries were executed on the cleaned MySQL database to answer key business q
 ---
 
 ### Phase 3 – Power BI Visualisation
+
+The Power BI layer represents the final stage of the analytics pipeline, transforming SQL outputs into an interactive, business-focused dashboard designed for financial oversight, workforce planning, and pension policy analysis.
+
+**Data Connection:**
+
+Power BI was connected directly to the MySQL database containing the cleaned pension dataset.
+
+**🧮 DAX Measures & Calculations**
+
+Key business metrics were implemented using DAX measures to ensure dynamic interaction with slicers and filters:
+
+- Total Pensioners
+- Average Monthly Pension
+- Total Pension Payout
+- Pensioners by Pension Type
+- Pension Value Distribution Buckets
+
+All measures dynamically recalculate based on user selections, enabling scenario-based and exploratory analysis.
+
+**📐 Visual Design & Chart Selection:**
+
+Visuals were selected based on specific business questions:
+
+1- KPI Cards: High-level overview of pension scale and financial exposure
+
+<img width="712" height="86" alt="image" src="https://github.com/user-attachments/assets/3b88e95f-db43-45b1-baf5-bbebbcf551c9" />
+
+2- Donut Chart: Pension type distribution (Defined Benefit vs Defined Contribution)
+
+<img width="351" height="172" alt="image" src="https://github.com/user-attachments/assets/b26d2001-0360-4e84-b2b0-1c5da72d3a85" />
+
+3- Bar Chart: Average monthly pension by region
+
+<img width="346" height="173" alt="image" src="https://github.com/user-attachments/assets/183f68d7-4158-4dfa-9af3-24f00ed0daef" />
+
+4- Line Chart: Retirement trends over time
+
+<img width="357" height="176" alt="image" src="https://github.com/user-attachments/assets/1c7b190f-6025-4136-8a5c-acd482eac9c8" />
+
+5- Histogram: Distribution of monthly pension values
+
+<img width="365" height="183" alt="image" src="https://github.com/user-attachments/assets/f860edd1-e3f4-4f77-9216-6c466785a338" />
+
+The layout follows a top-down analytical flow, guiding users from summary KPIs to deeper trend and distribution analysis.
+
+**🎛️ Interactivity & User Experience**
+
+Implemented slicers for:
+
+- Region
+
+<img width="217" height="90" alt="image" src="https://github.com/user-attachments/assets/25a6dda4-52af-4468-b0e9-f52b41875c40" />
+ 
+- Pension Type
+
+<img width="215" height="99" alt="image" src="https://github.com/user-attachments/assets/eba92287-6c27-424c-8eb2-fb90c75d606d" />
+
+- Retirement Year
+
+<img width="215" height="111" alt="image" src="https://github.com/user-attachments/assets/935b27d1-8081-44c5-998f-eb4f1f8aaecc" />
+
+- Monthly Pension Amount
+
+<img width="217" height="129" alt="image" src="https://github.com/user-attachments/assets/b77dcc90-4136-4379-84d1-2cd755d4c540" />
+
+
+
+Applied consistent formatting, alignment, and colour themes to enhance usability and readability.
+
+The dashboard is designed for non-technical stakeholders, allowing intuitive data exploration without requiring SQL or Power BI expertise.
 An interactive Power BI dashboard was developed to present insights clearly and intuitively.
 
-<img width="576" height="327" alt="image" src="https://github.com/user-attachments/assets/21aae47f-7766-4058-a6cf-1c82725a0d7b" />
+<img width="969" height="560" alt="image" src="https://github.com/user-attachments/assets/005bff68-f96b-466a-a1f0-5d213425214f" />
+
 
 
 ---
