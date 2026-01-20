@@ -172,7 +172,8 @@ Applied consistent formatting, alignment, and colour themes to enhance usability
 The dashboard is designed for non-technical stakeholders, allowing intuitive data exploration without requiring SQL or Power BI expertise.
 An interactive Power BI dashboard was developed to present insights clearly and intuitively.
 
-<img width="969" height="560" alt="image" src="https://github.com/user-attachments/assets/005bff68-f96b-466a-a1f0-5d213425214f" />
+<img width="1226" height="686" alt="image" src="https://github.com/user-attachments/assets/773c0bae-93f1-4d13-b1e7-58840c794dce" />
+
 
 
 
